@@ -1,0 +1,4 @@
+{
+  "include": ["next-env.d.js", "**/*.ts", "**/*.tsx", "pages/index.js"],
+  "exclude": ["node_modules"]
+}

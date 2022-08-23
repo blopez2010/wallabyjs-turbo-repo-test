@@ -1,0 +1,24 @@
+{
+  "name": "ui-tests",
+  "version": "0.0.0",
+  "description": "Tests all components of the ui library", 
+  "main": "./index.js",
+  "files": ["dist/**"],
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "jest --colors"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.13",
+    "@types/react-dom": "^17.0.8",
+    "react": "^17.0.2",
+    "test-setup": "*"
+  },
+  "engines": {
+    "npm": ">=8.13.2",
+    "node": ">=14.15.5"
+  }
+}
